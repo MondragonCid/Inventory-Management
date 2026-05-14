@@ -1,44 +1,64 @@
-Inventory Management System
-A simple and intuitive inventory management system designed to help businesses track products, manage stock levels, and record all stock movements in one place.
+# Inventory Management System
 
-What This System Does
-This system allows users to manage their entire product inventory through a straightforward interface. It handles everything from adding new products and suppliers to recording every stock-in and stock-out transaction.
+A lightweight inventory management system built to help businesses track products, manage stock levels, and maintain records of all stock movements through a simple and clear interface.
 
-Key Features
-Product Management — Add, update, delete, and search for products with ease
+## Overview
 
-Stock Tracking — Record stock coming in and going out with full history
+This system provides a complete solution for managing product inventory. Users can add and organize products, track suppliers, monitor stock levels, and record every stock-in and stock-out transaction. All data is validated before being saved to ensure accuracy and consistency.
 
-Category Organization — Group products into categories for better organization
+## Key Features
 
-Supplier Management — Keep track of supplier details and contact information
+- **Product Management**  
+  Add, update, delete, and search for products quickly.
 
-Low Stock Alerts — Quickly find products running low on inventory
+- **Stock Tracking**  
+  Record stock coming in and stock going out with a full history of every transaction.
 
-Data Validation — All inputs are checked to prevent errors before saving
+- **Category Organization**  
+  Group products into categories for better structure and filtering.
 
-System Testing — Built-in testing tools to ensure everything runs smoothly
+- **Supplier Management**  
+  Store supplier details including contact information and addresses.
 
-How It Works
-The system is built in four simple layers that work together:
+- **Low Stock Alerts**  
+  Easily identify products that are running low and need reordering.
 
-User Interface — What the user sees and interacts with
+- **Input Validation**  
+  All user inputs are checked for correctness before being processed.
 
-Business Logic — The managers that handle all the rules and operations
+- **Built-In Testing**  
+  A dedicated testing tool ensures every part of the system works as expected.
 
-Data Storage — Where all information gets saved and retrieved
+## System Architecture
 
-Data Structures — The building blocks like Products, Categories, and Stock Records
+The system follows a clean layered architecture, making it easy to understand and maintain.
 
-Who Is This For
-Small to medium businesses that need a reliable way to track inventory without complicated software. Perfect for retail shops, warehouses, stockrooms, or anyone managing physical products.
+| Layer              | Purpose                                              |
+|--------------------|------------------------------------------------------|
+| User Interface     | What the user sees and interacts with                |
+| Business Logic     | Handles all rules, operations, and decision making   |
+| Data Storage       | Saves and retrieves all information from the database|
+| Data Structures    | The core building blocks like Products and Suppliers |
 
-Built With
-Java
+### Architecture Diagram
 
-MySQL Database
+*See the class diagram below for a visual breakdown of how each component connects.*
 
-Mermaid (for diagram visualization)
+*(Insert your Mermaid diagram image here)*
+
+## Who This Is For
+
+- Retail shops
+- Small warehouses
+- Stockrooms
+- Anyone needing simple and reliable inventory tracking
+
+## Technology Stack
+
+- Java
+- MySQL
+- JDBC (Database Connection)
+- Mermaid (Diagram Visualization)
 
 <img width="1074" height="1380" alt="Class Diagram" src="https://github.com/user-attachments/assets/c4c33f3e-99ac-4d37-bd1a-7d01cc616a4b" />
 
