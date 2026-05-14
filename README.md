@@ -39,3 +39,6 @@ Java
 MySQL Database
 
 Mermaid (for diagram visualization)
+
+<img width="1074" height="1380" alt="Class Diagram" src="https://github.com/user-attachments/assets/c4c33f3e-99ac-4d37-bd1a-7d01cc616a4b" />
+
